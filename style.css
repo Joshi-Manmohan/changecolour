@@ -1,0 +1,28 @@
+
+.ex{
+    height: 500px;
+    width: 500px;
+    background-color: blue;
+    animation: colors 2s infinite;
+}
+@keyframes colors{
+    0%{
+        background-color: blue;
+    }
+    25%{
+        background-color: yellow;
+    }
+    50%{
+        background-color: olivedrab;
+
+    }
+    75%{
+        background-color: orange;
+    }
+    100%{
+        background-color: red;
+
+    }
+   
+
+}
